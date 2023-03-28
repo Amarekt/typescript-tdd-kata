@@ -4,7 +4,7 @@
   "description": "a quick repo for initializing an environment to practice TDD w/ Typescript",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest  --coverage --watchAll --env=jsdom",
+    "test": "jest",
     "coverage": "jest --coverage --watchAll --env=jsdom"
   },
   "repository": {
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "bigdatacloud-reverse-geocoding": "^0.2.0",
+    "dotenv": "^16.0.3",
     "filelink": "^4.1.2",
     "image-thumbnail": "^1.0.13",
     "jest-runner": "^27.3.1",
